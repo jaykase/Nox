@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>School website</title>
+   <meta charset="utf-8">
+   <meta name="author" content="Bianes">
+   <!-- internal styles -->
+<style>
+   * {
+    margin: 0px;
+    padding: 0px;
+    }
+  body {
+   background:-moz-linear-gradient(#000,#3399cc);
+   font-family: verdana;
+   background-color: white;
+   padding: 50px;
+   }
+  h1	{
+   text-align: center;
+   border-bottom: 2px solid #009;
+   margin-bottom: 50px;
+   }
+ /* rules for navigation menu */
+ /* ==================================== */
+ ul#navmenu, ul.sub1, ul.sub2 {
+  margin: 0 auto;
+  list-style-type: none;
+  font-size: 8pt;
+  }
+
+ ul#navmenu li {
+	
+  width: 125px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-right: 4px;
+  color:black;
+ } 
+
+ ul#navmenu li a{
+text-decoration:none;
+color: white;
+background:-moz-linear-gradient(#000,#3399cc);
+background:-webkit-linear-gradient(#000,#3399cc);
+ }
+
+ ul#navmenu a {
+  text-decoration: none;
+  display: block;
+  width: 125px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #FFF;
+  border: 1px solid #CCc;
+  border-radius: 8px;
+ }
+
+ul#navmenu .sub1 li {
+
+ }
+
+ul#navmenu .sub1 a {
+ margin-top: 5px;
+ }
+
+ul#navmenu .sub2 a{
+ margin-left: 10px;
+ }
+   
+ul#navmenu li:hover > a {
+background:-moz-linear-gradient(#000,#3399cc);
+background:-webkit-linear-gradient(#000,#3399cc);
+ }
+
+ul#navmenu li:hover a:hover {
+ background:linear-gradient(#000,#3399cc);
+ background:-moz-linear-gradient(#000,#3399cc);
+ }
+
+ul#navmenu ul.sub1 {
+ display: none;
+ position: absolute;
+ top: 26px;
+ left: 0px;
+}
+   
+ul#navmenu ul.sub2 {
+ display: none;
+ position: absolute;
+ top: 0px;
+ left: 126px;
+ }
+
+ul#navmenu li:hover .sub1 {
+ display: block;
+ }
+
+ul#navmenu .sub1 li:hover .sub2{
+ display: block;
+ }
+
+.darrow {
+ font-size: 11pt;
+ position: absolute;
+ top: 5px;
+ right: 4px;
+ }
+
+.rarrow {
+ font-size: 13pt;
+ position: absolute;
+ top: 6px;
+ right: 4px;
+ }
+
+</style>
+  
+</head>
+ <body>
+
+  
+<h1>Nox University</h1>
+
+<ul id="navmenu">
+ <li><a href="#">Home</a></li>
+ <li><a href="#">Academics</a><span class="darrow">&#9660;</span>
+  <ul class="sub1">
+ <li><a href="#">Graduate School</a></li>
+ <li><a href="#">Collage of law</a></li>
+ <li><a href="#">CAS</a></li>
+ <li><a href="#">COA</a></li>
+ <li><a href="#">CBA</a></li>
+ <li><a href="#">CCJE</a></li>
+ <li><a href="#">CEA</a></li>
+ <li><a href="#">Collage of HTM</a></li>
+ <li><a href="#">Collage of ITCS</a></li>
+ <li><a href="#">Collage of Nursing</a></li>
+ <li><a href="#">CTE</a></li>
+</ul>
+</li>
+<li><a href="#">hyperlink 3</a></li>
+<li><a href="#">hyperlink 4</a><span class="darrow">&#9660;</span>
+  <ul class="sub1">
+ <li><a href="#">hyperlink 4.1</a></li>
+ <li><a href="#">hyperlink 4.2</a></li>
+ <li><a href="#">hyperlink 4.3</a><span class="rarrow">&#9654;</span>
+  <ul class="sub2">
+   <li><a href="#">hyperlink 4.3.1</a></li>
+   <li><a href="#">hyperlink 4.3.2</a></li>
+   <li><a href="#">hyperlink 4.3.3</a></li>
+  </ul>
+ </li>
+</ul>
+</li>
+<li><a href="#">hyperlink 5</a></li>
+</ul>
+
+</body>
+</html>
