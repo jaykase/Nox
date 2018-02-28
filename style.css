@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+  body {
+   background:-moz-linear-gradient(#000,#3399cc);
+   font-family: verdana;
+   background-color: black;
+   padding: 50px;
+   }
+  h1	{
+   text-align: center;
+   border-bottom: 2px solid #009;
+   margin-bottom: 50px;
+      color: white;
+   }
+ /* rules for navigation menu */
+ /* ==================================== */
+ ul#navmenu, ul.sub1, ul.sub2 {
+  margin: 0 auto;
+  list-style-type: none;
+  font-size: 8pt;
+  }
+
+ ul#navmenu li {
+	
+  width: 250px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-right: 4px;
+  color:black;
+ } 
+
+ ul#navmenu li a{
+text-decoration:none;
+color: white;
+background:-moz-linear-gradient(#000,#3399cc);
+background:-webkit-linear-gradient(#000,#3399cc);
+ }
+
+ ul#navmenu a {
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #FFF;
+  border: 1px solid #CCc;
+  border-radius: 8px;
+ }
+
+ul#navmenu .sub1 li {
+
+ }
+
+ul#navmenu .sub1 a {
+ margin-top: 5px;
+ }
+
+ul#navmenu .sub2 a{
+ margin-left: 10px;
+ }
+   
+ul#navmenu li:hover > a {
+background:-moz-linear-gradient(#000,#3399cc);
+background:-webkit-linear-gradient(#000,#3399cc);
+ }
+
+ul#navmenu li:hover a:hover {
+ background:linear-gradient(#000,#3399cc);
+ background:-moz-linear-gradient(#000,#3399cc);
+ }
+
+ul#navmenu ul.sub1 {
+ display: none;
+ position: absolute;
+ top: 26px;
+ left: 0px;
+}
+   
+ul#navmenu ul.sub2 {
+ display: none;
+ position: absolute;
+ top: 0px;
+ left: 126px;
+ }
+
+ul#navmenu li:hover .sub1 {
+ display: block;
+ }
+
+ul#navmenu .sub1 li:hover .sub2{
+ display: block;
+ }
+
+.darrow {
+ font-size: 11pt;
+ position: absolute;
+ top: 5px;
+ right: 4px;
+ }
+
+.rarrow {
+ font-size: 13pt;
+ position: absolute;
+ top: 6px;
+ right: 4px;
+ }
