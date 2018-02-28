@@ -13,13 +13,14 @@
   body {
    background:-moz-linear-gradient(#000,#3399cc);
    font-family: verdana;
-   background-color: white;
+   background-color: black;
    padding: 50px;
    }
   h1	{
    text-align: center;
    border-bottom: 2px solid #009;
    margin-bottom: 50px;
+      color: white;
    }
  /* rules for navigation menu */
  /* ==================================== */
@@ -124,7 +125,16 @@ ul#navmenu .sub1 li:hover .sub2{
 <h1>Nox University</h1>
 
 <ul id="navmenu">
- <li><a href="#">Home</a></li>
+ <li><a href="#">Home</a><span class="darrow">&#9660;</span>
+ <ul class="sub1">
+ <li><a href="#">History</a></li>
+ <li><a href="#">Faculty</a></li>
+ <li><a href="#">Calendar</a></li>
+ <li><a href="#">Employments</a></li>
+ <li><a href="#">Announcements</a></li>
+ <li><a href="#">Events</a></li>
+</ul>
+ </li>
  <li><a href="#">Academics</a><span class="darrow">&#9660;</span>
   <ul class="sub1">
  <li><a href="#">Graduate School</a></li>
@@ -140,21 +150,28 @@ ul#navmenu .sub1 li:hover .sub2{
  <li><a href="#">CTE</a></li>
 </ul>
 </li>
-<li><a href="#">hyperlink 3</a></li>
+<li><a href="#">Student</a>
+ <ul class="sub1">
+ <li><a href="#">Admission & Enrollment</a></li>
+ <li><a href="#">Student Services</a></li>
+ <li><a href="#">Student Affairs</a></li>
+ <li><a href="#">Student Organizations</a></li>
+ <li><a href="#">Rules and Regulations</a></li>
+</ul>
 <li><a href="#">hyperlink 4</a><span class="darrow">&#9660;</span>
   <ul class="sub1">
  <li><a href="#">hyperlink 4.1</a></li>
  <li><a href="#">hyperlink 4.2</a></li>
  <li><a href="#">hyperlink 4.3</a><span class="rarrow">&#9654;</span>
   <ul class="sub2">
-   <li><a href="#">hyperlink 4.3.1</a></li>
+   <li><a href="#">hyperlink</a></li>
    <li><a href="#">hyperlink 4.3.2</a></li>
    <li><a href="#">hyperlink 4.3.3</a></li>
   </ul>
  </li>
 </ul>
 </li>
-<li><a href="#">hyperlink 5</a></li>
+<li><a href="#">Contacts</a></li>
 </ul>
 
 </body>
