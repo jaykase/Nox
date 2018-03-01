@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Organisation</title>
+<link rel="stylesheet" href="bootswatch.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab:400,700');
+
+body{
+	margin: 0;
+}
+
+header{
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+header h1 {
+	display: inline;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400pt;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li {
+	list-style-type: none;
+	float: left;
+}
+nav ul li a{
+	color: seagreen;
+	text-decoration: none;
+}
+#nav {
+	font-family: 'Montserrat', sans-serif;
+}
+.homegreen {
+	background-color: darkgreen;
+	padding: 30px 10px 16px 10px;
+}
+.divider {
+	background-color: darkgreen;
+	height: 5px;
+}
+.homeblack:hover {
+	background-color: blue;
+	padding: 30px 10px 16px 10px;
+}
+ul li {
+		width: 200px;
+		text-align: center;
+		position: relative;
+		float: left;
+		margin-right: 20px;
+	
+	}	
+	ul a {
+		
+		display: block;
+		width:  px;
+		line-height: 25px;
+		background-color: #FFF;
+		border: 1px solid #CCC;
+		border-radius: 40px;
+	}
+
+ul .sub1 li {
+
+	}
+
+ul .sub1 a {
+	margin-top: 5px;
+	}
+
+ul .sub2 a{
+	margin-left: 5px;
+	}
+			
+ul li:hover > a {
+background:-moz-linear-gradient(#000,#3369cc);
+background:-webkit-linear-gradient(#000,#3399cc);
+	}
+
+
+ul ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 25px;
+	text-align: center;
+}
+			
+ul ul.sub2 {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 125px;
+	}
+
+ul li:hover .sub1 {
+	display: block;
+	}
+
+ul .sub1 li:hover .sub2{
+	display: block;
+	}
+
+.darrow {
+	font-size:  11pt;
+	position: absolute;
+	top: 5px;
+	right: 4px;
+	}
+
+.rarrow {
+	font-size:  13pt;
+	position: absolute;
+	top: 6px;
+	right: 4px;
+	}</style>
+</head>
+<body>
+<div class="row">
+<div class="col-sm-12"><!--header-->
+    <nav>
+			<h1>Nox University</h1>
+			<ul id="nav">
+	<li><a href="#">Home</a><span class="darrow"></span>
+	<ul class="sub1">
+	<li><a href="#">History</a></li>
+	<li><a href="#">Faculty</a></li>
+	<li><a href="#">Calendar</a></li>
+	<li><a href="#">Employments</a></li>
+	<li><a href="#">Announcements</a></li>
+	<li><a href="#">Events</a></li>
+</ul>
+	</li>
+	<li><a href="#">Academics</a><span class="darrow"></span>
+		<ul class="sub1">
+	<li><a href="#">Graduate School</a></li>
+	<li><a href="#">Collage of law</a></li>
+	<li><a href="#">CAS</a></li>
+	<li><a href="#">COA</a></li>
+	<li><a href="#">CBA</a></li>
+	<li><a href="#">CCJE</a></li>
+	<li><a href="#">CEA</a></li>
+	<li><a href="#">Collage of HTM</a></li>
+	<li><a href="#">Collage of ITCS</a></li>
+	<li><a href="#">Collage of Nursing</a></li>
+	<li><a href="#">CTE</a></li>
+</ul>
+</li>
+<li><a href="#">Student</a>
+	<ul class="sub1">
+	<li><a href="enrol.html">Admission & Enrollment</a></li>
+	<li><a href="service.html">Student Services</a></li>
+	<li><a href="affairs.html">Student Affairs</a></li>
+	<li><a href="Org.html">Student Organizations</a></li>
+	<li><a href="rules.html">Rules and Regulations</a></li>
+</ul>
+<li><a href="#">hyperlink 4</a><span class="darrow"></span>
+		<ul class="sub1">
+	<li><a href="#">hyperlink 4.1</a></li>
+	<li><a href="#">hyperlink 4.2</a></li>
+	<li><a href="#">hyperlink 4.3</a><span class="rarrow"></span>
+		<ul class="sub2">
+			<li><a href="#">hyperlink</a></li>
+			<li><a href="#">hyperlink 4.3.2</a></li>
+			<li><a href="#">hyperlink 4.3.3</a></li>
+		</ul>
+	</li>
+</ul>
+</li>
+<li><a href="#">Contacts</a></li>
+</ul>
+		</nav>
+</div><!--end of header-->
+</div>
+<div class="row">
+<div class="col-sm-4"><!--side-->
+    <div class="card mb-3">
+  <h3 class="card-header">Card header</h3>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+  </div>
+  <img style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_158bd1d28ef%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_158bd1d28ef%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22129.359375%22%20y%3D%2297.35%22%3EImage%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Card title</h4>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div><!--end of side-->
+</div>
+
+<div class="col-sm-8"><!--main-->
+    <div class="jumbotron">
+  <h1 class="display-3">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+    <div class="jumbotron">
+  <h1 class="display-3">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+</div><!--end of main-->
+</div>
+<div class="row">
+<div class="col-sm-12"><!--footer-->
+    
+</div><!--footer-->
+</div>
+    
+</body>
+</html>

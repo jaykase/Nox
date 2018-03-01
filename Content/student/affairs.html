@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Affairs</title>
+<link rel="stylesheet" href="bootswatch.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab:400,700');
+
+body{
+	margin: 0;
+    padding: 0;
+}
+
+header{
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+header h1 {
+	display: inline;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400pt;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+nav ul{
+	display: inline;
+	padding: 20px;
+	float: left;
+    
+}
+nav ul li {
+	list-style-type: none;
+	float: left;
+}
+nav ul li a{
+	color: seagreen;
+	text-decoration: none;
+}
+#nav {
+	font-family: 'Montserrat', sans-serif;
+}
+.homegreen {
+	background-color: darkgreen;
+	padding: 30px 10px 16px 10px;
+}
+.divider {
+	background-color: darkgreen;
+	height: 5px;
+}
+.homeblack:hover {
+	background-color: blue;
+	padding: 30px 10px 16px 10px;
+}
+ul li {
+		width: 200px;
+		text-align: center;
+		position: relative;
+		float: left;
+		margin-right: 150px;
+	
+	}	
+	ul a {
+		
+		display: block;
+		width:  250px;
+		line-height: 75px;
+		background-color: #FFF;
+		border: 1px solid #CCC;
+		border-radius: 40px;
+	}
+
+ul .sub1 li {
+
+	}
+
+ul .sub1 a {
+	margin-top: 5px;
+	}
+
+ul .sub2 a{
+	margin-left: 5px;
+	}
+			
+ul li:hover > a {
+background:-moz-linear-gradient(#000,#3369cc);
+background:-webkit-linear-gradient(#000,#3399cc);
+	}
+
+
+ul ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+    region-break-after: avoid-column;
+}
+			
+ul ul.sub2 {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 125px;
+	}
+
+ul li:hover .sub1 {
+	display: block;
+	}
+
+ul .sub1 li:hover .sub2{
+	display: block;
+	}
+
+.darrow {
+	font-size:  11pt;
+	position: absolute;
+	top: 5px;
+	right: 4px;
+	}
+
+.rarrow {
+	font-size:  13pt;
+	position: absolute;
+	top: 6px;
+	right: 4px;
+	}</style>
+</head>
+<body>
+<div class="row">
+<div class="col-sm-12"><!--header-->
+    <nav>
+			<h1>Nox University</h1>
+			<ul id="nav">
+	<li><a href="index">Home</a><span class="darrow"></span>
+	<ul class="sub1">
+	<li><a href="#">History</a></li>
+	<li><a href="#">Faculty</a></li>
+	<li><a href="#">Calendar</a></li>
+	<li><a href="#">Employments</a></li>
+	<li><a href="#">Announcements</a></li>
+	<li><a href="#">Events</a></li>
+</ul>
+	</li>
+	<li><a href="#">Academics</a><span class="darrow"></span>
+		<ul class="sub1">
+	<li><a href="#">Graduate School</a></li>
+	<li><a href="#">Collage of law</a></li>
+	<li><a href="#">CAS</a></li>
+	<li><a href="#">College of Accountancy</a></li>
+	<li><a href="#">College of Business Administration</a></li>
+	<li><a href="#">CCJE</a></li>
+	<li><a href="#">CEA</a></li>
+	<li><a href="#">Collage of HTM</a></li>
+	<li><a href="#">Collage of Information Technology</a></li>
+	<li><a href="#">Collage of Nursing</a></li>
+	<li><a href="#">Colleget of Teacher Education</a></li>
+</ul>
+</li>
+<li><a href="#">Student</a>
+	<ul class="sub1">
+	<li><a href="enrol.html">Admission & Enrollment</a></li>
+	<li><a href="service.html">Student Services</a></li>
+	<li><a href="affairs.html">Student Affairs</a></li>
+	<li><a href="Org.html">Student Organizations</a></li>
+	<li><a href="rules.html">Rules and Regulations</a></li>
+</ul>
+<li><a href="#">hyperlink 4</a><span class="darrow"></span>
+		<ul class="sub1">
+	<li><a href="#">hyperlink 4.1</a></li>
+	<li><a href="#">hyperlink 4.2</a></li>
+	<li><a href="#">hyperlink 4.3</a><span class="rarrow"></span>
+		<ul class="sub2">
+			<li><a href="#">hyperlink</a></li>
+			<li><a href="#">hyperlink 4.3.2</a></li>
+			<li><a href="#">hyperlink 4.3.3</a></li>
+		</ul>
+	</li>
+</ul>
+</li>
+<li><a href="#">Contacts</a></li>
+</ul>
+		</nav>
+</div><!--end of header-->
+</div>
+<div class="row">
+<div class="col-sm-2"><!--side-->
+    <div class="card border-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Primary card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card border-secondary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Secondary card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card border-success mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Success card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card border-danger mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Danger card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card border-warning mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Warning card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card border-info mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Info card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card border-light mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Light card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card border-dark mb-3" style="max-width: 20rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h4 class="card-title">Dark card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+
+</div><!--end of side-->
+</div>
+
+<div class="col-sm-10"><!--main-->
+    <h1>Student Development Programs & Services</h1>
+    <div class="jumbotron">
+  <h1 class="display-3">Student Affairs Office</h1>
+  <p class="lead">The Student Affairs Office performs in a supportive role and within a wide range of student related functions. The Student Affairs Office leads, directs, and administers overall functions of Student Clubs and Organizations</p>
+  <hr class="my-4">
+  <p>The following are some of the specific services and responsibilities of the office:
+
+<br>Administrative Advisory role to the SSG, and Student Organizations.
+<br>Facilitate student complaints and grievances in compliance with procedures for conflict resolution.
+<br>Promote a "Quality of Campus Life" for students.
+<br>Facilitate communication and understanding of perspectives among the faculty, staff, students, and community.
+<br>Promote the "shared governance" concept with student involvement.
+<br>Enforces the Student Code of Conduct through the Student Disciplinary Policy.
+<br>Promote student involvement in campus life programs and activities to complement student educational experiences at University Nox.
+<br>The Student Affairs Office is located in Room S219a..</p>
+  <p class="lead">
+    
+  </p>
+</div>
+    <div class="jumbotron">
+  <h1 class="display-3">Orientation - Convocation</h1>
+  <p class="lead">Within the first two weeks after classes have officially begun, the Student Affairs Office conducts an Orientation Convocation for every College. This helps new students to be familiar with the philosophy, vision, mission of the school, the institutional rules, policies and regula­tions, the school facilities, the administrators, faculty and staff, school activities, clubs and organizations, career guidance, student services, and other information. To augment the general orientation, personnel from the Guidance Center and Library hold smaller classroom interaction dealing with more specific matters</p>
+</div>
+</div><!--end of main-->
+</div>
+<div class="row">
+<div class="col-sm-12"><!--footer-->
+    
+</div><!--footer-->
+</div>
+    
+</body>
+</html>
