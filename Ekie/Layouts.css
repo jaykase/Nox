@@ -1,0 +1,47 @@
+/* css for layouts 1 */
+
+*{
+ margin: 0px;
+ padding: 0px
+ }
+
+div#container {
+width: 90%;
+margin: 10px auto;
+}
+
+header {
+ background-color: Green;
+ min-height: 80px;
+}
+
+#main{
+ background-color: white;
+ min-height: 300px;
+ overflow: hidden;
+ }
+
+#sidebar1{
+ background-color: #999;
+ min-height: 350px;
+ float: left;
+ width: 250px;
+}
+
+#sidebar2{
+ background-color: #999;
+ min-height: 350px;
+ float: right;
+ width: 200px;
+ }
+
+#colum1{
+ background-color: #009;
+ min-height: 350px;
+ margin-left: 250px;
+ margin-right: 200px;
+}
+footer{
+ background-color: #008000;
+ min-height: 60px;
+}

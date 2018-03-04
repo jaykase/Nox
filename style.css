@@ -11,7 +11,8 @@ img {
 body{
   margin: 0;
   background-image: url(hero.jpg);
-
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 header{
@@ -73,7 +74,7 @@ nav ul li a{
 
   ul li {
   
-    width: 125px;
+    width: 200px;
     text-align: center;
     position: relative;
     float: left;
@@ -86,7 +87,7 @@ nav ul li a{
   ul a {
     
     display: block;
-    width:  125px;
+    width:  200px;
     line-height: 25px;
     background-color: #FFF;
     border: 1px solid #CCC;
