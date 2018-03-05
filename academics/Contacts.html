@@ -1,0 +1,161 @@
+<!DOCTYPE html >
+<html >
+<head>
+        <link rel="stylesheet" href="style.css">
+    <style>
+  body{
+background-image: url(arrr.jpg);
+background-size: cover;
+</style>
+<meta http-equiv="Contengt-Type" content="text/html; charset=utf-8" />
+<title>Contacts</title>
+<br/>
+</head>
+    <header>
+        <nav>
+            <img src="unnamed.png" width="100" height="50">
+            <h1>Nox University</h1>
+            <ul id="nav">
+                <ul class="nav">
+    <li><a href="index.html">Home</a><span class="darrow"></span>
+    <ul class="sub1">
+    <li><a href="#">History</a></li>
+    <li><a href="#">Faculty</a></li>
+    <li><a href="#">Calendar</a></li>
+    <li><a href="#">Employments</a></li>
+    <li><a href="#">Announcements</a></li>
+    <li><a href="#">Events</a></li>
+</ul>
+    </li>
+    <li><a href="#">Academics</a><span class="darrow"></span>
+        <ul class="sub1">
+    <li><a href="#">Graduate School</a></li>
+    <li><a href="Collage of law.html">Collage of law</a></li>
+    <li><a href="#">CAS</a></li>
+    <li><a href="#">COA</a></li>
+    <li><a href="#">CBA</a></li>
+    <li><a href="#">CCJE</a></li>
+    <li><a href="#">CEA</a></li>
+    <li><a href="#">Collage of HTM</a></li>
+    <li><a href="#">Collage of ITCS</a></li>
+    <li><a href="#">Collage of Nursing</a></li>
+    <li><a href="#">CTE</a></li>
+</ul>
+</li>
+<li><a href="#">Student</a>
+    <ul class="sub1">
+    <li><a href="#">Admission & Enrollment</a></li>
+    <li><a href="#">Student Services</a></li>
+    <li><a href="#">Student Affairs</a></li>
+    <li><a href="#">Student Organizations</a></li>
+    <li><a href="#">Rules and Regulations</a></li>
+</ul>
+<li><a href="#">hyperlink 4</a><span class="darrow"></span>
+        <ul class="sub1">
+    <li><a href="#">hyperlink 4.1</a></li>
+    <li><a href="#">hyperlink 4.2</a></li>
+    <li><a href="#">hyperlink 4.3</a><span class="rarrow"></span>
+        <ul class="sub2">
+            <li><a href="#">hyperlink</a></li>
+            <li><a href="#">hyperlink 4.3.2</a></li>
+            <li><a href="#">hyperlink 4.3.3</a></li>
+        </ul>
+    </li>
+</ul>
+</li>
+<li><a href="Contacts.html">Contacts</a></li>
+
+</ul>       
+            </ul>
+
+        </nav>
+
+    </header>
+
+<form id="form1" runat="server">
+<div>
+	<div id="wrapper">
+		<div id="banner">
+		</div>
+			<div id="navigation">
+
+				<div id="nav">
+				
+		<div id="content">
+			<div class="form">
+			<table width="680" align="center">
+			<form id="contactform">
+                    <tr>
+                        <td colspan="2">
+
+                           
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">
+
+                            <label for="Full_Name">Full Name<span class="required_star"> * </span></label>
+                            <br />
+                            <input size="50" type="text" name="Full_Name" id="Full_Name" maxlength="50" placeholder="First and last name" required pattern="[a-zA-Z ]+"/>
+
+                            <br />
+
+                            <label for="Email">Email<span class="required_star"> * </span></label>
+                            <br />
+                            <input size="50" type="text" name="Email" id="Email" maxlength="80" placeholder="example@gmail.com"  required pattern="^[a-zA-Z0-9-\_.]+@[a-zA-Z0-9-\_.]+\.[a-zA-Z0-9.]{2,5}$" />
+
+                            <br />
+
+                            <label for="Confirm_Email">Confirm Email<span class="required_star"> * </span></label>
+                            <br />
+                            <input size="50" type="text" name="Confirm_Email" id="Confirm_Email" maxlength="80" placeholder="Confirm email address" required pattern="^[a-zA-Z0-9-\_.]+@[a-zA-Z0-9-\_.]+\.[a-zA-Z0-9.]{2,5}$" />
+
+                            <br />
+
+                           <!-- <label for="Subject">Subject<span class="required_star"> * </span></label>
+                            <br />
+                           <select  id="Subject" name="Subject">
+                                <option value="Please Select">Please Select</option>
+                                <option value="Pre-Sales Enquiry">Lajdow</option>
+                                
+                                <option value="Other">Other</option>
+                            </select>-->
+							
+	
+                            <br />
+
+                           <!-- <label for="Website_URL">Website URL</label>
+                            <br />
+                            <input size="40" type="text" name="Website_URL" id="Website_URL" maxlength="50" value="" />-->
+   <label for="Enquiry" class="required">Your Enquiry<span class="required_star"> * </span></label>
+                            <br />
+                            <textarea cols="55" rows="20" name="Enquiry" id="Enquiry" maxlength="2000"></textarea>
+							<br/>
+							<a href="mailto:al.streetmovers05@gmail.com"> <input type="submit" value="Submit Form" id="form_submit_button" /></a>
+                        </td>
+                        <!--<td valign="bottom">-->
+                         
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                                                        <div class="g-recaptcha" data-sitekey="6LcjegkTAAAAADwX9hGs2hfyPPcXTWrgcY30_4Dl"></div>
+                        </td>
+                        <td align="right">
+                           
+                        </td>
+                    </tr>
+
+                </table>
+
+                <br /><br />
+
+            </form>
+			
+			
+	
+
+ 
+</body>
+</html>

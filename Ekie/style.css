@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+
+img {
+ float: left;
+ margin-top: 0px;
+ margin-right: 20px;
+
+}
+body{
+background-image: url(skul.jpeg);
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', sans-serif !important;
+} 
+section{
+    padding: 120px 0 0;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    transition: .5s;
+}
+. box:hover{
+    transform: translateY(30px);
+    box-shadow: 0 50px 50px rgba(0,0,0,.5);
+}
+.box .imgBox{
+    position: relative;
+}
+.box .imgBox img{
+    transition: .5s;
+}
+.box:hover .imgBox img{
+    opacity: .5s;
+    transform: translateY(-40px);
+}
+.box .content{
+    position: absolute;
+    bottom: -40;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    opacity: 0;
+}
+.box:hover .content{
+    opacity: 10;
+    bottom: -10px;
+}
+.box .content h3{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+.box .content p{
+    font-size: 12px;
+    color: #fff;
+    font-weight: 200;
+}
+.box .content .btnD{
+    border: none;
+    background: #fe1b70;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: .5s
+}
+.box .content .btnD:hover{
+    background: #f6fe1b;
+    color: #262626;
+}
+header{
+ background: black;
+ color: white;
+ padding: 8px 0px 6px 40px;
+ height: 45px;
+}
+
+header h1 {
+
+ font-family: 'Roboto Slab', serif;
+ font-weight: 400;
+ font-size: 38px;
+ float: left;
+ margin-top: 0px;
+ margin-right: 20px;
+}
+
+nav ul{
+	
+ padding: 1px;
+ float: left;
+}
+
+nav ul li {
+ opacity: .9;
+ list-style-type: none;
+ float: left;
+
+	
+
+}
+
+nav ul li a{
+ text-decoration: none;
+}
+
+
+#nav {
+ font-family: font-family: 'Montserrat', sans-serif;
+}
+
+.homegreen {
+ background-color: darkgreen;
+ padding: 30px 10px 16px 10px;
+}
+
+.divider {
+ background-color: darkgreen;
+ height: 5px;
+}
+
+.homeblack:hover {
+ background-color: blue;
+ padding: 30px 10px 16px 10px;
+}
+
+
+ ul li {
+	
+  width: 125px;
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-right: 4px;
+  
+ } 
+
+
+
+ ul a {
+  
+  display: block;
+  width: 125px;
+  line-height: 25px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 40px;
+ }
+
+ul .sub1 li {
+
+ }
+
+ul .sub1 a {
+ margin-top: 5px;
+ }
+
+ul .sub2 a{
+ margin-left: 5px;
+ }
+   
+ul li:hover > a {
+background-color: #DEDEF0;
+
+ }
+
+
+ul ul.sub1 {
+ display: none;
+ position: absolute;
+ top: 25px;
+ text-align: center;
+}
+   
+ul ul.sub2 {
+ display: none;
+ position: absolute;
+ top: 0px;
+ left: 125px;
+ }
+
+ul li:hover .sub1 {
+ display: block;
+ }
+
+ul .sub1 li:hover .sub2{
+ display: block;
+ }
+
+.darrow {
+ font-size: 11pt;
+ position: absolute;
+ top: 5px;
+ right: 4px;
+ }
+
+.rarrow {
+ font-size: 13pt;
+ position: absolute;
+ top: 6px;
+ right: 4px;
+ }
+/*footer*/
+
+.copyrights{
+margin-top:25px;
+}
+
+footer.container-fluid.text-center.foot {
+    background: #383838;
+}
+
+.dark-line{
+border-top: 1px solid #525252;
+}
+
+.white-txt{
+color: #FFF;
+}
+
+
+a.link {
+    color: #008acc;
+    border: 1px #008acc solid;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a.link:hover {
+background: #008acc;
+    color: #383838;
+}
+
+.footimg{
+width: 5rem;
+}

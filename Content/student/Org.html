@@ -3,184 +3,117 @@
 <head>
 <title>Organisation</title>
 <link rel="stylesheet" href="bootswatch.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab:400,700');
+     <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #help ul{
+            list-style: none;
+            display: none;
+        }
+        #help li:hover > ul{
+            display: block;
+        }
+        col-sm-12{
+           
+        } 
 
-body{
-	margin: 0;
-}
-
-header{
-	background: black;
-	color: white;
-	padding: 8px 0px 6px 40px;
-	height: 45px;
-}
-header h1 {
-	display: inline;
-	font-family: 'Roboto Slab', serif;
-	font-weight: 400pt;
-	font-size: 32px;
-	float: left;
-	margin-top: 0px;
-	margin-right: 10px;
-}
-nav ul{
-	display: inline;
-	padding: 0px;
-	float: left;
-}
-nav ul li {
-	list-style-type: none;
-	float: left;
-}
-nav ul li a{
-	color: seagreen;
-	text-decoration: none;
-}
-#nav {
-	font-family: 'Montserrat', sans-serif;
-}
-.homegreen {
-	background-color: darkgreen;
-	padding: 30px 10px 16px 10px;
-}
-.divider {
-	background-color: darkgreen;
-	height: 5px;
-}
-.homeblack:hover {
-	background-color: blue;
-	padding: 30px 10px 16px 10px;
-}
-ul li {
-		width: 200px;
-		text-align: center;
-		position: relative;
-		float: left;
-		margin-right: 20px;
-	
-	}	
-	ul a {
-		
-		display: block;
-		width:  px;
-		line-height: 25px;
-		background-color: #FFF;
-		border: 1px solid #CCC;
-		border-radius: 40px;
-	}
-
-ul .sub1 li {
-
-	}
-
-ul .sub1 a {
-	margin-top: 5px;
-	}
-
-ul .sub2 a{
-	margin-left: 5px;
-	}
-			
-ul li:hover > a {
-background:-moz-linear-gradient(#000,#3369cc);
-background:-webkit-linear-gradient(#000,#3399cc);
-	}
-
-
-ul ul.sub1 {
-	display: none;
-	position: absolute;
-	top: 25px;
-	text-align: center;
-}
-			
-ul ul.sub2 {
-	display: none;
-	position: absolute;
-	top: 0px;
-	left: 125px;
-	}
-
-ul li:hover .sub1 {
-	display: block;
-	}
-
-ul .sub1 li:hover .sub2{
-	display: block;
-	}
-
-.darrow {
-	font-size:  11pt;
-	position: absolute;
-	top: 5px;
-	right: 4px;
-	}
-
-.rarrow {
-	font-size:  13pt;
-	position: absolute;
-	top: 6px;
-	right: 4px;
-	}</style>
+</style>
 </head>
 <body>
 <div class="row">
 <div class="col-sm-12"><!--header-->
-    <nav>
-			<h1>Nox University</h1>
-			<ul id="nav">
-	<li><a href="#">Home</a><span class="darrow"></span>
-	<ul class="sub1">
-	<li><a href="#">History</a></li>
-	<li><a href="#">Faculty</a></li>
-	<li><a href="#">Calendar</a></li>
-	<li><a href="#">Employments</a></li>
-	<li><a href="#">Announcements</a></li>
-	<li><a href="#">Events</a></li>
-</ul>
-	</li>
-	<li><a href="#">Academics</a><span class="darrow"></span>
-		<ul class="sub1">
-	<li><a href="#">Graduate School</a></li>
-	<li><a href="#">Collage of law</a></li>
-	<li><a href="#">CAS</a></li>
-	<li><a href="#">COA</a></li>
-	<li><a href="#">CBA</a></li>
-	<li><a href="#">CCJE</a></li>
-	<li><a href="#">CEA</a></li>
-	<li><a href="#">Collage of HTM</a></li>
-	<li><a href="#">Collage of ITCS</a></li>
-	<li><a href="#">Collage of Nursing</a></li>
-	<li><a href="#">CTE</a></li>
-</ul>
-</li>
-<li><a href="#">Student</a>
-	<ul class="sub1">
-	<li><a href="enrol.html">Admission & Enrollment</a></li>
-	<li><a href="service.html">Student Services</a></li>
-	<li><a href="affairs.html">Student Affairs</a></li>
-	<li><a href="Org.html">Student Organizations</a></li>
-	<li><a href="rules.html">Rules and Regulations</a></li>
-</ul>
-<li><a href="#">hyperlink 4</a><span class="darrow"></span>
-		<ul class="sub1">
-	<li><a href="#">hyperlink 4.1</a></li>
-	<li><a href="#">hyperlink 4.2</a></li>
-	<li><a href="#">hyperlink 4.3</a><span class="rarrow"></span>
-		<ul class="sub2">
-			<li><a href="#">hyperlink</a></li>
-			<li><a href="#">hyperlink 4.3.2</a></li>
-			<li><a href="#">hyperlink 4.3.3</a></li>
-		</ul>
-	</li>
-</ul>
-</li>
-<li><a href="#">Contacts</a></li>
-</ul>
-		</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-image:url(unnamed.png)">
+                  <a class="navbar-brand" href="index.html" >NOX University</a>
+                    
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    
+                  <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav mr-auto">
+                      <div id="help">
+                      <li class="nav-item" >
+                        <a class="nav-link" href="#" >Home</a>
+                          <ul>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="#">History
+                                      <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="#">Faculty
+                                      <span class="sr-only"></span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="#">Calendar
+                                      <span class="sr-only"></span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="#">Employments
+                                      <span class="sr-only"></span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="#">Announcements
+                                      <span class="sr-only"></span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="#">Events
+                                      <span class="sr-only"></span></a>
+                              </li>
+                          </ul>
+                      </li>
+                    </div>
+                      <div id="help">
+                      <li class="nav-item" >
+                        <a class="nav-link" href="#" >Academics</a>
+                          <ul>
+                              <li class="nav-item active"><a class="nav-link" href="#">Graduate School<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">Collage of law<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">CAS<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">College of Accountancy<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">College of Business Administration<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">CCJE<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">CEA<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">Collage of HTM<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">Collage of Information Technology<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">Collage of Nursing<span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item active"><a class="nav-link" href="#">Colleget of Teacher Education<span class="sr-only">(current)</span></a></li>
+                          </ul>
+                      </li>
+                    </div>
+                    <div id="help">
+                      <li class="nav-item" >
+                        <a class="nav-link" href="#" >Students</a>
+                          <ul>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="enrol.html">Admission and Enrollment <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="service.html">Student Services <span class="sr-only"></span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="affairs.html">Student Affairs <span class="sr-only"></span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="Org.html">Student Organisation <span class="sr-only"></span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="rules.html">Rules and Regulations <span class="sr-only"></span></a>
+                              </li>
+                          </ul>
+                      </li>
+                    </div>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                      </li>
+                    </ul>
+                      </div>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </nav>
 </div><!--end of header-->
 </div>
 <div class="row">
